@@ -3,7 +3,7 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title> menuBar</title>
     
-  <script type="text/javascript" src="bootstrap/js/tests/vendor/jquery.js"></script>  
+  <script src="bootstrap/assets/js/jquery.js"></script>  
   <link rel="stylesheet" type="text/css" href="stylesheet.css">    
   <script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>    
   <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
@@ -11,32 +11,42 @@
 
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-        <!-- micro hero unit-->
-        <div class="span12">
-            <div class="well">
-                <h1> Some page title </h1>
-                <p> This is a website. </p>
-                <p> <a class="btn btn-primary" href="#">Tell me more</a> </p>
-            </div>
-            <!-- well -->
-        </div>
-        <!-- span12 -->
-    </div> <!-- row -->
-</div>
+  
+<img src="images/banner.png" >
 
-<div style="height: 42px;" id="nav-wrapper">
+
+<div style="height: 42px;"  id="nav-wrapper">
     <div id="nav" class="navbar affix" data-spy="affix" data-offset-top="200" data-offset-bottom="10">
         <div class="navbar-inner">
             <div class="container">
-                <div class="span12">
-                    <a class="brand" href="#">My Brand</a>
-                    <span class="navbar-text">
-                    This is my navbar.
-                    </span>
-                </div>
-            </div> <!-- container -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">IEEE UBC Branch</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">Photo Gallery</a></li>
+                <li><a href="#contact">Membership</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Upcoming Events</a></li>
+                    <li><a href="#">Past Events</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div> <!-- container -->
         </div> <!-- navbar-inner -->
     </div> <!-- navbar -->
 </div>
