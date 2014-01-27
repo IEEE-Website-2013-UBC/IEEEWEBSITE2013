@@ -184,7 +184,6 @@ function parse_flags(flags, options) {
 };
 
 
-
 if (!canvas.getContext) {
 	fallback = true;
 } else {
