@@ -29,7 +29,7 @@
     this.options     = options
     this.paused      = 
     this.sliding     =
-    this.interval    = 1000 // empty before
+    this.interval    =  // empty before
     this.$active     = 
     this.$items      = null
 

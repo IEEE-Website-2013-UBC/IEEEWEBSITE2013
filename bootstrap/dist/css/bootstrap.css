@@ -6019,9 +6019,14 @@ body.modal-open,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  height: auto;
+
   max-width: 100%;
   line-height: 1;
+
+  margin: 0 auto;
+  height: 500px;
+  width: 1135px;
+
 }
 
 .carousel-inner > .active,
