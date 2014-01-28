@@ -416,3 +416,9 @@ if (typeof define === "function" && define.amd) {
 }
 
 })(Holder, window);
+
+$(document).ready(function() {
+    $('.carousel').carousel({
+        interval: 5000
+    })
+});    

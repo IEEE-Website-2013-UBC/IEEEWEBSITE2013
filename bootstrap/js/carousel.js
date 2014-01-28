@@ -27,10 +27,10 @@
     this.$element    = $(element)
     this.$indicators = this.$element.find('.carousel-indicators')
     this.options     = options
-    this.paused      =
+    this.paused      = 
     this.sliding     =
-    this.interval    =
-    this.$active     =
+    this.interval    = 1000 // empty before
+    this.$active     = 
     this.$items      = null
 
     this.options.pause == 'hover' && this.$element
