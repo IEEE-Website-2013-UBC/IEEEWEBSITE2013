@@ -184,7 +184,6 @@ function parse_flags(flags, options) {
 };
 
 
-
 if (!canvas.getContext) {
 	fallback = true;
 } else {
@@ -417,3 +416,9 @@ if (typeof define === "function" && define.amd) {
 }
 
 })(Holder, window);
+
+$(document).ready(function() {
+    $('.carousel').carousel({
+        interval: 5000
+    })
+});    
