@@ -6014,12 +6014,12 @@ body.modal-open,
 
 .carousel {
   position: relative;
-  width: 84%; //84% for no display column
+  width: 100%; //84% for no display column
 
   padding-right: 0px;
   padding-left: 0px;
   margin-right: auto;
-  margin-left: 8%;
+  margin-left: auto;
 
 }
 
