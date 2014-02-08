@@ -1987,15 +1987,13 @@ textarea.input-lg {
 }
 
 .btn {
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
+  padding-left: 20px;
   font-size: 14px;
   font-weight: normal;
-  line-height: 1.428571429;
+  line-height: 1.8;
   text-align: center;
   white-space: nowrap;
-  vertical-align: middle;
+  vertical-align: 0px;
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -2086,11 +2084,12 @@ fieldset[disabled] .btn-default.active {
 
 .btn-circle {
   color: #ffffff;
-  background-color: #D8D8D8;
+  //background-color: #D8D8D8;
   border-color: #D8D8D8;
   border-radius: 50%;
   width: 20px;
   height: 20px;
+  margin: 6px;
 }
 
 .btn-circle:hover,
@@ -2099,9 +2098,9 @@ fieldset[disabled] .btn-default.active {
 .btn-circle:active,
 .btn-circle.active,
 .open .dropdown-toggle.btn-circle {
-  color: #ffffff;
-  background-color: #A0A0A0;
-  border-color: #A0A0A0;
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-primary:hover,
@@ -6045,7 +6044,7 @@ body.modal-open,
 
   margin: 0 auto;
   height: 570px;
-  width: 1135px;
+  width: 1700px;
 
 }
 
@@ -6092,7 +6091,7 @@ body.modal-open,
   top: 0;
   bottom: 0;
   left: 0;
-  width: 15%;
+  width: 5%;
   font-size: 20px;
   color: #ffffff;
   text-align: center;
@@ -6188,16 +6187,43 @@ body.modal-open,
 }
 
 .carousel-caption {
+  opacity: 0.4;
   position: absolute;
+  height: 10;
   right: 15%;
   bottom: -15px;
   left: 15%;
   z-index: 10;
-  padding-top: 20px;
+  padding-top: 5px;
   padding-bottom: 20px;
   color: #ffffff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  
+  background: #7d7e7d; /* Old browsers */
+  background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* IE10+ */
+  background: linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+.carousel-caption h3{
+	text-align:left;
+	padding-left:90px;
+	margin-top:-24px;
+	font-weight:bold;
+}
+
+.carousel-caption p{
+	text-align:left;
+	padding-left:90px;
+	font-size: 20px;
 }
 
 .carousel-caption .btn {
@@ -6214,9 +6240,11 @@ body.modal-open,
     font-size: 30px;
   }
   .carousel-caption {
-    right: 20%;
-    left: 20%;
-    padding-bottom: 30px;
+    height: 100px;
+  	z-index:10;
+    right: 0;
+    left: 0;
+    padding-bottom: 50px;
   }
   .carousel-indicators {
     bottom: 20px;
