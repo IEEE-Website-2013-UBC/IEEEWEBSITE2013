@@ -344,7 +344,8 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
 
     if (this.sliding)       return this.$element.one('slid', function () { that.to(pos) })
     if (activeIndex == pos) return this.pause().cycle()
-
+    
+    
     return this.slide(pos > activeIndex ? 'next' : 'prev', $(this.$items[pos]))
   }
 
@@ -378,7 +379,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     var direction = type == 'next' ? 'left' : 'right'
     var fallback  = type == 'next' ? 'first' : 'last'
     var that      = this
-
+    
     if (!$next.length) {
       if (!this.options.wrap) return
       $next = this.$element.find('.item')[fallback]()
@@ -470,7 +471,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     var options = $.extend({}, $target.data(), $this.data())
     var slideIndex = $this.attr('data-slide-to')
     if (slideIndex) options.interval = false
-
+    
     $target.carousel(options)
 
     if (slideIndex = $this.attr('data-slide-to')) {
