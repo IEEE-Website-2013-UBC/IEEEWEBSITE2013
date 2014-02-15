@@ -13,7 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-
+    <script src="bootstrap/assets/js/respond.min.js"></script>  
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="bootstrap/assets/js/html5shiv.js"></script>
@@ -23,7 +23,9 @@
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
     <link href="calendar.css" type="text/css" rel="stylesheet"/>
+    <link href="accordion.css" type="text/css" rel="stylesheet"/>
   </head>
+
 <!-- NAVBAR
 ================================================== -->
   <body>
@@ -176,52 +178,120 @@
       </div><!-- /.row -->
 
 
-      <!-- START THE FEATURETTES -->
+      <!--Accordion
+      ================================================== -->
+               
+        <div class="bs-example">
+            <div class="panel-group" id="accordion">
+                <!--1-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">                                
+                                <div class="accordionEventDate">23</div>
+                                <div class="accordionEventTitle">first event</div>                                
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>
+                                CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties
+                                for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/"
+                                    target="_blank">Learn more.</a></p>
+                        </div>
+                    </div>
+                </div>
 
-      <hr class="featurette-divider">
+                <!--2-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                <div class="accordionEventDate">23</div>
+                                <div class="accordionEventTitle">second event</div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>
+                                CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties
+                                for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/"
+                                    target="_blank">Learn more.</a></p>
+                        </div>
+                    </div>
+                </div>
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">searching far and wide</p>
+                <!--3-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                <div class="accordionEventDate">23</div>
+                                <div class="accordionEventTitle">third event</div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <p>
+                                HTML stands for HyperText Markup Language. HTML is the main markup language for
+                                describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/"
+                                    target="_blank">Learn more.</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--4-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                <div class="accordionEventDate">23</div>
+                                <div class="accordionEventTitle">fourth event</div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>
+                                Twitter Bootstrap is a powerful front-end framework for faster and easier web development.
+                                It is a collection of CSS and HTML conventions. <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/"
+                                    target="_blank">Learn more.</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--5-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                <div class="accordionEventDate">23</div>
+                                <div class="accordionEventTitle">fifth event</div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>
+                                CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties
+                                for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/"
+                                    target="_blank">Learn more.</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Team Rocket blasts off at the speed of light</p>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">surrender now or prepare to fight</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-      
-      <!--Calendar -->
+        <!--Calendar 
+      ================================================== -->
+      <div class="calendarWrapper">
         <iframe src="https://www.google.com/calendar/embed?src=fgp6mguc2ah7u6l2foh4gg7490%40group.calendar.google.com&ctz=America/Vancouver?nocache"
             style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-        <!-- /END THE FEATURETTES -->
+      </div>
+        
 
       <!-- FOOTER -->
       <footer>
