@@ -746,10 +746,9 @@ pre code {
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .container:before,
@@ -771,10 +770,19 @@ pre code {
 .container:after {
   clear: both;
 }
+
+.row_rectangle {
+  margin-top: 10px;
+  margin-right: 2%;
+  margin-left: 1%;
+}
+
+
 
 .row {
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-top: 10px;
+  margin-right: 35%;
+  margin-left: 15px;
 }
 
 .row:before,
@@ -1232,7 +1240,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 100%;
   }
   .col-lg-1,
   .col-lg-2,
@@ -1257,7 +1265,7 @@ pre code {
     width: 25%;
   }
   .col-lg-4 {
-    width: 20%;
+    width: 33.33333333333333%;
   }
   .col-lg-5 {
     width: 41.66666666666667%;
@@ -6862,4 +6870,11 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+
+.screen-divider{
+	  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
 }
