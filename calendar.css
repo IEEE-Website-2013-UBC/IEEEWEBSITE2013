@@ -27,6 +27,14 @@
     background: rgb(38,49,81); /*#87e0fd; /* Old browsers */
 }
 
+.row_calendar {
+  position: absolute;
+  float:right;
+  z-index:5;
+  width:auto;
+  margin-left: 70%;
+  margin-top:24%;
+}
 
 .navbar-inner .container
 {

@@ -1,0 +1,53 @@
+.bs-example
+{
+    width: 100%;
+}
+
+.accordionEventDate
+{
+    position:relative;
+    float:left;
+    width:10%;
+    height: 100%;
+    
+    font-family:Sans-Serif;
+    font-weight:bold;
+    font-size:250%;
+    text-align:center;
+    line-height:250%
+}
+
+.accordionEventTitle
+{
+    position:relative;
+    float:right;
+    width:90%;
+    height: 100%;
+    
+    
+    border-left:1px solid black;
+    
+    font-family:Sans-Serif;
+    font-weight:bold;
+    font-size:100%
+}
+
+.accordionEventTitle h1
+{
+    font-size:100%
+}
+
+.panel-heading
+{    
+    height:115px;
+    border:1px solid black;
+}
+
+
+.bs-example
+{
+    position:relative;
+    float:left;
+    width:70%;
+}
+
