@@ -44,6 +44,12 @@
 	margin-left: -3.5%;
 }
 
+.row_calendar iframe{
+	position: relative;
+	margin-left: -1.4%;
+	frameborder: 0;
+}
+
 .navbar-inner .container
 {
     margin-left: auto;
