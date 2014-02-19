@@ -6359,3 +6359,21 @@ th.visible-print,td.visible-print {
 	overflow: hidden;
 	background-color: #e5e5e5;
 }
+
+.header-image{
+	display:inline-block;
+	height:240px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom:-0.5%;
+}
+
+.header-image img {
+	display: block;
+	max-width: 100%;
+	line-height: 1;
+	margin: 0 auto;
+	height: 280px;
+	width: 1700px;
+}
