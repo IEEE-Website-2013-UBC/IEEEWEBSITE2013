@@ -4039,7 +4039,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar {
-  position: absolute;
   z-index: 1000;
   min-height: 50px;
   margin-bottom: 20px;
@@ -6021,12 +6020,13 @@ body.modal-open,
 .carousel {
   position: relative;
   width: 100%; //84% for no display column
-
   padding-right: 0px;
   padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
-
+  border-style:solid;
+  border-width:5px;
+  border-color:#696969;
 }
 
 .carousel-inner {
