@@ -59,3 +59,16 @@
 .bs-example h3{
 	margin-top: 2px;
 }
+
+.bs-example .carousel_number{
+	margin-top:1%;
+	text-align:center;
+}
+
+.bs-example .number{
+	color:#A9A9A9;
+}
+
+.bs-example .number:hover{
+	color: #696969;
+}
