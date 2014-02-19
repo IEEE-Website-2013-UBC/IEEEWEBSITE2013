@@ -48,6 +48,14 @@
 {
     position:relative;
     float:left;
-    width:70%;
+    width:65%;
 }
 
+.bs-example hr
+{
+	margin-bottom: -0.5%;	
+}
+
+.bs-example h3{
+	margin-top: 2px;
+}

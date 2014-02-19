@@ -32,8 +32,16 @@
   float:right;
   z-index:5;
   width:auto;
-  margin-left: 70%;
-  margin-top:24%;
+  margin-left: 66%;
+  margin-top: 1%;
+}
+
+.row_calendar .vertical_line{
+	border-left:3px solid #A9A9A9;
+	height:750px;
+	position:absolute;
+	margin-top:-3.5%;
+	margin-left: -3.5%;
 }
 
 .navbar-inner .container
