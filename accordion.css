@@ -29,20 +29,52 @@
     
     font-family:Sans-Serif;
     font-weight:bold;
-    font-size:100%
+    font-size:100%;
+    text-align:left;
+    
 }
 
-.accordionEventTitle img
+.accordionEventTitle .text
+{
+    float:left;
+}
+
+.accordionEventTitle .image
 {
     float:right;
     height: 200%;
+    
+    display: block; width: 140px; height: 105px;
+    border-top-left-radius:300em;    
+    background: url(image/funny_cat.jpg);
+    background-size:140px 140px;
+    background-repeat:no-repeat;
 }
 
+.panel-body p
+{
+    position:relative;
+    float:left;
+    width:80%;
+}
+
+.panel-body .image
+{    
+    float:right;
+    
+    margin-top:-15px;
+    margin-right:1px;
+    display: block; width: 140px; height: 35px;
+    background: url(image/funny_cat.jpg);
+    background-position: 0px -105px;
+    
+    background-size:140px 140px;
+    background-repeat:no-repeat;
+}
 
 .accordionEventTitle h1
 {
     font-size:100%;
-    float:left;
 }
 
 .panel-heading
