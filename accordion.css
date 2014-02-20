@@ -32,15 +32,24 @@
     font-size:100%
 }
 
+.accordionEventTitle img
+{
+    float:right;
+    height: 200%;
+}
+
+
 .accordionEventTitle h1
 {
-    font-size:100%
+    font-size:100%;
+    float:left;
 }
 
 .panel-heading
 {    
     height:115px;
     border:1px solid black;
+    
 }
 
 
