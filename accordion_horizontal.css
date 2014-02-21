@@ -1,0 +1,59 @@
+#accordion {
+	list-style:none;
+	margin:30px 0;
+	padding:0;
+	height:270px;
+	width:980px;
+	margin:0 0 0 11px;
+	border-top:2px solid #000000;
+	border-bottom:2px solid #000000;
+	overflow:hidden;
+}
+#accordion .panel {
+	float:left;
+	display:block;
+	height:270px;
+	width:44px;
+	overflow:hidden;
+	color:#666666;
+	text-decoration:none;
+	font-size:16px;
+	line-height:1.5em
+}
+#accordion .panel.active {
+	width:848px
+}
+.panelContent {
+	padding:15px 15px 15px 55px;
+	height:240px;
+	width:778px;
+}
+.pink {
+	width:42px;
+	height:270px;
+	float:left;
+	background:4px 85px #8C80F9 ;
+	border-right:2px solid #ffffff;
+	cursor:pointer
+}
+.last {
+	border:none
+}
+
+.rotate {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
