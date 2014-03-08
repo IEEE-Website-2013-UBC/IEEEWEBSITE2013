@@ -1,32 +1,3 @@
-#nav.affix-top {
-    width: 100%;
-}
-
-#nav.affix {
-    position: fixed;
-    top: -1%;
-    width: 100%;
-}
-
-/*activates drop down menu on hover*/
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-/*moves the dropdown block up ne pixel so that it is next to the navbar*/
-.navbar .dropdown-menu {
- margin-top: 0px;
-}
-
-#nav-wrapper
-{
-    width: 100%;
-}
-
-.navbar-inner {
-    /*color*/
-    background: rgb(38,49,81); /*#87e0fd; /* Old browsers */
-}
-
 .row_calendar {
   position: absolute;
   float:right;
@@ -49,9 +20,3 @@
 	frameborder: 0;
 }
 
-.navbar-inner .container
-{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
