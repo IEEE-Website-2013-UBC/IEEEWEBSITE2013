@@ -1,6 +1,7 @@
 .bs-example
 {
     width: 100%;
+    margin-left: 1%;
 }
 
 .accordionEventDate
@@ -88,7 +89,7 @@
 {
     position:relative;
     float:left;
-    width:65%;
+    width:62.7%;
 }
 
 .bs-example hr
