@@ -1,17 +1,17 @@
 .row_calendar {
-  position: absolute;
-  float:right;
+  position: relative;
   z-index:5;
   width:auto;
   margin-left: 66%;
   margin-top: 1%;
+  margin-right: 2%;
 }
 
 .row_calendar .vertical_line{
 	border-left:3px solid #A9A9A9;
-	height:725px;
+	height:100%;
 	position:absolute;
-	margin-top:-3.5%;
+	margin-top:-3.1%;
 	margin-left: -3.5%;
 }
 
