@@ -328,6 +328,7 @@ hr { //
 	border: 0;
 	border-top: 3px solid #A9A9A9;
 	position: relative;
+	width: 96.2%;
 }
 
 .sr-only {
@@ -5547,7 +5548,7 @@ body.modal-open,.modal-open .navbar-fixed-top,.modal-open .navbar-fixed-bottom
 
 .carousel {
 	position: relative;
-	width: 100%; //84% for no display column padding-right : 0px;
+	width: 95%; //84% for no display column padding-right : 0px;
 	padding-left: 0px;
 	margin-right: auto;
 	margin-left: auto;
