@@ -1,0 +1,22 @@
+.row_calendar {
+  position: relative;
+  z-index:5;
+  width:auto;
+  margin-left: 66%;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+
+.row_calendar .vertical_line{
+	border-left:3px solid #A9A9A9;
+	height:100%;
+	position:absolute;
+	margin-top:-3.1%;
+	margin-left: -3.5%;
+}
+
+.row_calendar iframe{
+	position: relative;
+	frameborder: 0;
+}
+
