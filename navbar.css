@@ -31,10 +31,15 @@
 
 .nav navbar-nav
 {
-    color: rgb(38,49,81);
+    color: #CCFFCC !important;/*rgb(38,49,81);*/
 }
 
 .navbar-inner {
     /*color*/
-    background: rgb(38,49,81); /*#87e0fd; /* Old browsers */
+    background: #0099CC;/*rgb(38,49,81); /*#87e0fd; /* Old browsers */
+}
+
+.navbar-inner a
+{
+    color: #CCFFCC !important;
 }

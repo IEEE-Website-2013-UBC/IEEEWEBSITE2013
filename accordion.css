@@ -11,6 +11,8 @@
     width:10%;
     height: 100%;
     
+    color: #555555;
+    
     font-family:Sans-Serif;
     font-weight:bold;
     font-size:250%;
@@ -24,6 +26,8 @@
     float:right;
     width:90%;
     height: 104px;
+    
+    color: #555555;
     
     border-left:1px solid black;
     
@@ -73,6 +77,11 @@
     background-repeat:no-repeat !important;
 }
 
+.panel-body a
+{
+    color: #7777FF !important;
+}
+
 .accordionEventTitle h1
 {
     font-size:100%;
@@ -88,9 +97,10 @@
 
 .bs-example
 {
-    position:relative;
-    float:left;
-    width:61.7%;
+    position: relative;
+    float: left;
+    width: 61%;
+    margin-left: 2.5%;
 }
 
 .bs-example hr

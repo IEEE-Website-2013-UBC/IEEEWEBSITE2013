@@ -16,6 +16,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 audio,canvas,video {
 	display: inline-block;
+	background: #00dddd;
 }
 
 audio:not ([controls] ) {
@@ -38,6 +39,7 @@ html {
 body {
 	margin: 0;
 	height: 100% !important;
+	width: 100% !important;
 }
 
 a:focus {
@@ -279,7 +281,7 @@ button,input,select[multiple],textarea {
 }
 
 a {
-	color: #428bca;
+	color: #CCFFCC !important;/*#428bca;*/
 	text-decoration: none;
 }
 
@@ -3399,7 +3401,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 
 .nav>li>a:hover,.nav>li>a:focus {
 	text-decoration: none;
-	background-color: #eeeeee;
+	background-color: #ccccee;
 }
 
 .nav>li.disabled>a {
@@ -3906,6 +3908,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 	margin-top: 0;
 	border-top-right-radius: 0;
 	border-top-left-radius: 0;
+	background: #00AAAA;
 }
 
 .navbar-fixed-bottom .navbar-nav>li>.dropdown-menu {
@@ -5555,7 +5558,7 @@ body.modal-open,.modal-open .navbar-fixed-top,.modal-open .navbar-fixed-bottom
 
 .carousel {
 	position: relative;
-	width: 95%; //84% for no display column padding-right : 0px;
+	width: 84% for no display column padding-right : 0px;
 	padding-left: 0px;
 	margin-right: auto;
 	margin-left: auto;

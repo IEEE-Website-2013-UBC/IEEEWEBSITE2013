@@ -23,7 +23,8 @@
     <link href="carousel.css" rel="stylesheet">
     <link href="navbar.css" rel="stylesheet">
     <link href="calendar.css" type="text/css" rel="stylesheet"/>
-    <link href="accordion.css" type="text/css" rel="stylesheet"/>	
+    <link href="accordion.css" type="text/css" rel="stylesheet"/>
+    <link href="general.css" type="text/css" rel="stylesheet"/>    
 
   </head>
 
@@ -84,6 +85,8 @@
     <!--Separator between navbar and carousel-->
     <div style="height:8px"></div>
 
+    <div class="background">
+    <div class="content">
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
@@ -173,7 +176,7 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
+    <div class="container_marketing">
      <!--   <hr class="featurette-divider"> -->
       
       <!--Accordion
@@ -329,13 +332,12 @@
 				<span><a class = "number" href = "#">5</a></span>
             </div>
         </div>
-        
-        <!--Calendar------------------------------------>        
+               
 
-        <div class="row_calendar">	
-        	<div class = "vertical_line"></div>
-      		<iframe src="https://www.google.com/calendar/embed?src=fgp6mguc2ah7u6l2foh4gg7490%40group.calendar.google.com&ctz=America/Vancouver?nocache"
-            width="100%" height="630" frameborder="0" scrolling="no"></iframe>
+        <!--Calendar------------------------------------>        
+    
+        <div class="row_calendar">        	
+      		<iframe src="https://www.google.com/calendar/embed?src=fgp6mguc2ah7u6l2foh4gg7490%40group.calendar.google.com&ctz=America/Vancouver?nocache"></iframe>
 
      	</div>
         
@@ -356,7 +358,9 @@
           <a href = "http://standards.ieee.org/"><img class="img_link_long" src="image/ieee_standards_asso.png"  alt="Generic placeholder image"></a>
         </div>
       </div>
-        
+      
+      </div> <!-- this is for the class="content" div-->
+      </div> <!-- this is for the class="background" div--> 
 
       <!-- FOOTER -->
       <footer>
