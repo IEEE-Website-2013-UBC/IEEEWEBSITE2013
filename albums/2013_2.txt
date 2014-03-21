@@ -1,0 +1,13 @@
+<script>
+  $("#closealbum").click(function(){
+    $("#y2013").load("./albums/2013.txt");
+  });
+</script>
+
+<h3>Kittens</h3>
+<img src="./image/Kitten1.jpg" alt="Kitten1" width="100" height="100" Hspace="10" Vspace="10" style="float:left;">
+<img src="./image/Kitten2.jpg" alt="Kitten2" width="100" height="100" Hspace="10" Vspace="10" style="float:left;">
+<img src="./image/Kitten3.jpg" alt="Kitten3" width="100" height="100" Hspace="10" Vspace="10" style="float:left;">
+<img src="./image/Kitten4.jpg" alt="Kitten4" width="100" height="100" Hspace="10" Vspace="10" style="float:left;">
+<img src="./image/Kitten5.jpg" alt="Kitten5" width="100" height="100" Hspace="10" Vspace="10" style="float:left;">
+<button id="closealbum">X</button>
