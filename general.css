@@ -1,7 +1,7 @@
 .content 
 {   
      width: 75%;
-     margin: 0 auto;
+     margin: 1px auto;
      background: #FFFFFF;
      padding: 0;  
      display: table;
@@ -26,6 +26,11 @@
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom:20%;
-    height:98%;
+    //height:98%;
     
+}
+
+#main-slider-nav-ul a
+{
+	color: #000000 !important;
 }
