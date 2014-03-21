@@ -1,0 +1,15 @@
+<script>
+  $("#closealbum").click(function(){
+    $("#y2014").load("./albums/2014.txt");
+  });
+</script>
+
+<a href="#" id="closealbum" style="float:right; text-decoration:none">[close]</a>
+<h3>Corgi</h3>
+<div id="album">
+<a href="./image/Corgi1.jpg" data-lightbox="Corgi"><img src="./image/corgi1.jpg"></a>
+<a href="./image/Corgi2.jpg" data-lightbox="Corgi"><img src="./image/corgi2.jpg"></a>
+<a href="./image/Corgi3.jpg" data-lightbox="Corgi"><img src="./image/corgi3.jpg"></a>
+<a href="./image/Corgi4.jpg" data-lightbox="Corgi"><img src="./image/corgi4.jpg"></a>
+<a href="./image/Corgi5.jpg" data-lightbox="Corgi"><img src="./image/corgi5.jpg"></a>
+</div>
