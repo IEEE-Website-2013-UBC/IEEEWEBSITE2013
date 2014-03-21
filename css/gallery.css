@@ -1,0 +1,44 @@
+a:link {
+COLOR: #BBBBBB;
+}
+a:visited {
+COLOR: #BBBBBB;
+}
+a:hover {
+COLOR: #888888;
+}
+a:active {
+COLOR: #555555;
+}
+
+.liquid-slider .polaroid{
+border: 2px solid #000000;
+background:#ffffff;
+float:left;
+width:216px;
+height:300px;
+margin:10px;
+}
+
+.liquid-slider .polaroid img{
+width:200px;
+height:200px;
+margin: 6px;
+}
+
+.liquid-slider .polaroid .title{
+padding: 10px;
+color:black; font-size:20px;
+font-family:verdana;
+}
+
+.liquid-slider .polaroid .date{
+}
+
+.liquid-slider #album img{
+width:200px;
+height:200px;
+margin:10px;
+background: #7777777;
+border: 2px solid #777777;
+}
