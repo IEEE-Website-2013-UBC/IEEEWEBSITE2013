@@ -36,7 +36,13 @@
 
 .navbar-inner {
     /*color*/
-    background: #0099CC;/*rgb(38,49,81); /*#87e0fd; /* Old browsers */
+    background: rgb(38,49,81);/*#0099CC;/*rgb(38,49,81); /*#87e0fd; /* Old browsers */
+}
+
+.navbar-inner .container 
+{
+    margin: 0 auto;
+    padding-left: 7.5%;
 }
 
 .navbar-inner a

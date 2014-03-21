@@ -3401,7 +3401,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 
 .nav>li>a:hover,.nav>li>a:focus {
 	text-decoration: none;
-	background-color: #ccccee;
+	background-color: #428BCA;/*#ccccee;*/
 }
 
 .nav>li.disabled>a {
@@ -3908,7 +3908,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 	margin-top: 0;
 	border-top-right-radius: 0;
 	border-top-left-radius: 0;
-	background: #00AAAA;
+	background: rgb(38,49,81);
 }
 
 .navbar-fixed-bottom .navbar-nav>li>.dropdown-menu {
@@ -6374,7 +6374,7 @@ th.visible-print,td.visible-print {
 
 .header-image{
 	display:inline-block;
-	height:240px;
+	height:168px;
 	position: relative;
 	width: 100%;
 	overflow: hidden;
