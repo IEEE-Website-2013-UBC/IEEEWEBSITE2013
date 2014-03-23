@@ -13,7 +13,7 @@
 
 
     <link rel="stylesheet" href="./css/gallery.css">
-
+    
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <script src="bootstrap/assets/js/respond.min.js"></script>  
@@ -39,11 +39,7 @@
         $("#y"+theYear).load("./albums/"+clicked_id+".txt");
       };
     </script>
-
-    <LightBox>
-    <link href="css/lightbox.css" rel="stylesheet" />
-    <script src="js/lightbox-2.6.min.js"></script>
-
+		
   </head>
 
 <!-- NAVBAR
@@ -107,7 +103,7 @@
     <div>
       <h2 class="title" style="margin:0px 0px 0px 20px;"><font face="arial">2014</font></h2>
       <div id="y2014">
-        <script> 
+        <script>
       	  $("#y2014").load("./albums/2014.txt");
     	</script>
       </div>
@@ -155,5 +151,10 @@
       var api = $.data( $('#slider-id')[0], 'liquidSlider');
       */
     </script>
+
+    <!--LightBox-->
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <script src="js/lightbox-2.6.min.js"></script>
+
   </body>
 </html>

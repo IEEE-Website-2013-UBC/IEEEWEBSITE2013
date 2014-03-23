@@ -1,14 +1,24 @@
+#main-slider-nav-ul a
+{
+    color: #000000 !important;
+}
+
+#main-slider-nav-ul a
+{
+    color: #000000 !important;
+}
+
 a:link {
-COLOR: #BBBBBB;
+COLOR: #BBBBBB !important;
 }
 a:visited {
-COLOR: #BBBBBB;
+COLOR: #BBBBBB !important;
 }
 a:hover {
-COLOR: #888888;
+COLOR: #888888 !important;
 }
 a:active {
-COLOR: #555555;
+COLOR: #555555 !important;
 }
 
 .liquid-slider .polaroid{

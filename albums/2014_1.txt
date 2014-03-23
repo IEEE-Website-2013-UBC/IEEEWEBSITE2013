@@ -4,7 +4,7 @@
   });
 </script>
 
-<a href="#" id="closealbum" style="float:right; text-decoration:none">[close]</a>
+<a href="#" id="closealbum" onclick="return false;" style="float:right; text-decoration:none">[close]</a>
 <h3>Corgi</h3>
 <div id="album">
 <a href="./image/Corgi1.jpg" data-lightbox="Corgi"><img src="./image/corgi1.jpg"></a>
