@@ -1,3 +1,9 @@
+.content 
+{   
+     width: 75%;
+     margin: auto;
+}
+
 #main-slider-nav-ul a
 {
     color: #000000 !important;
