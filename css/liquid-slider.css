@@ -68,7 +68,7 @@
 *******************************************************/
 .ls-wrapper .liquid-slider {
   background: #f2f2f2;
-  width: 1030px;
+  width: 100%;
   /* Do not edit below this line */
   float: left;
   overflow: hidden;
@@ -94,7 +94,7 @@
 * for the entire slider.
 *******************************************************/
 .ls-wrapper .liquid-slider .panel {  
-  width: 1030px;
+  width: 100%;
   background-color: #f2f2f2;
   /* Do not edit below this line */
   display: block;
