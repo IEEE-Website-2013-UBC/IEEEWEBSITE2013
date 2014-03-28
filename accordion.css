@@ -125,3 +125,13 @@
 .bs-example .number:hover{
 	color: #696969;
 }
+
+.accordionSlider{
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.accordionSlider .panel{
+	width: 100% !important;
+	height: auto !important;
+}
