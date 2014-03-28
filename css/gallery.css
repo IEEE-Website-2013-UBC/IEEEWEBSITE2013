@@ -1,14 +1,30 @@
+.content 
+{   
+     width: 75%;
+     margin: auto;
+}
+
+#main-slider-nav-ul a
+{
+    color: #000000 !important;
+}
+
+#main-slider-nav-ul a
+{
+    color: #000000 !important;
+}
+
 a:link {
-COLOR: #BBBBBB;
+COLOR: #BBBBBB !important;
 }
 a:visited {
-COLOR: #BBBBBB;
+COLOR: #BBBBBB !important;
 }
 a:hover {
-COLOR: #888888;
+COLOR: #888888 !important;
 }
 a:active {
-COLOR: #555555;
+COLOR: #555555 !important;
 }
 
 .liquid-slider .polaroid{
@@ -28,11 +44,16 @@ margin: 6px;
 
 .liquid-slider .polaroid .title{
 padding: 10px;
-color:black; font-size:20px;
+color:black; font-size:18px;
 font-family:verdana;
+font-weight:600;
 }
 
 .liquid-slider .polaroid .date{
+padding: 10px;
+color:black; font-size:12px;
+font-family:verdana;
+font-style:italic;
 }
 
 .liquid-slider #album img{
