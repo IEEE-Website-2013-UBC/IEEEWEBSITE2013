@@ -20,7 +20,7 @@
 						{},
 						// default options
 						{
-							width: '500px',
+							width: '100%',
 							height: '300px',
 							animationAxis: 'x', // 'x'|'y'
 							animationDuration: 1000, // number|0

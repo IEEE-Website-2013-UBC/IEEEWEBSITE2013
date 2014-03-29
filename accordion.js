@@ -1,51 +1,22 @@
-function move_accordion(slide){
-	$(".slider1").diyslider();
-	$(".slider1").diyslider("move", slide);
-}
+var accordion_page = 1;
 
-function changeHeight(){
-	
-	// USE CSS
-	/*
-	while($(".slider1").height() != $(".panel").height()){
-		$(".slider1").diyslider("updateOptions", {
-		    height: $(".panel").height() + "px"
-		});
-	}*/
-	/*
-	if ($(".slider1").height() == 122){
-		$(".slider1").off('click');
-		setTimeout( function(){
-			$(".slider1").diyslider("updateOptions", {
-			    height: "240px"
-			});
-			$(".slider1").on('click');
-		}, 20);
+function slide(to){
+	if (to != accordion_page){
+		$("#accordion"+(accordion_page*5-4)).animate({width:'toggle'},800);
+		$('#accordion'+(to*5-4)).show();
+		
+		$("#accordion"+(accordion_page*5-3)).animate({width:'toggle'},800);
+		$('#accordion'+(to*5-3)).show();
+		
+		$("#accordion"+(accordion_page*5-2)).animate({width:'toggle'},800);
+		$('#accordion'+(to*5-2)).show();
+		
+		$("#accordion"+(accordion_page*5-1)).animate({width:'toggle'},800);
+		$('#accordion'+(to*5-1)).show();
+
+		$("#accordion"+(accordion_page*5)).animate({width:'toggle'},800);
+		$('#accordion'+(to*5)).show();
+		accordion_page = to;
 	}
-	else{
-		$(".slider1").off('click');
-		setTimeout( function(){
-				$(".slider1").diyslider("updateOptions", {
-			    height: "122px"
-			});
-				$(".slider1").on('click');
-		},20);
-	}
-	*/
+	
 }
-
-
-$(document).ready(function(){
-
-	$(".slider1").diyslider();
-	
-	$(".slider1").diyslider("updateOptions", {
-		width: "100%",
-	    height: "122px",
-	    animationDuration: 300,
-	    display: 1,
-	    loop: false
-	});
-	
-});
-
