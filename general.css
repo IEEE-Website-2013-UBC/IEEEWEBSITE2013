@@ -8,6 +8,7 @@
      height: 100%;     
 }
 
+
 .background
 {
     background: #a7cfdf; /* Old browsers */
@@ -27,8 +28,9 @@
     margin-right: 0%;
     margin-bottom:20%;
     //height:98%;
-    
 }
+
+
 
 #main-slider-nav-ul a
 {

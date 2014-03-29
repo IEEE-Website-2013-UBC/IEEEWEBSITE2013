@@ -281,7 +281,7 @@ button,input,select[multiple],textarea {
 }
 
 a {
-	color: #CCFFCC !important;/*#428bca;*/
+	color: #0000E6 !important;/*#428bca;*/
 	text-decoration: none;
 }
 
@@ -694,7 +694,7 @@ pre code {
 
 .row {
 	margin-top: 10px;
-	margin-right: 35%;
+	margin-right: 0%;
 	margin-left: 15px;
 }
 
