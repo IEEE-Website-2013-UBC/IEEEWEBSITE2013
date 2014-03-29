@@ -1,7 +1,23 @@
+.background
+{
+    background: #a7cfdf; /* Old browsers */
+    background: -moz-linear-gradient(bottom, #FFFFFF 0%, #a7cfdf 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, bottom top, top top, color-stop(0%,#FFFFFF), color-stop(100%,#a7cfdf)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(bottom, #FFFFFF 0%,#a7cfdf 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(bottom, #FFFFFF 0%,#a7cfdf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom, #FFFFFF 0%,#a7cfdf 100%); /* IE10+ */
+    background: linear-gradient(to top, #FFFFFF 0%,#a7cfdf 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#a7cfdf',GradientType=1 ); /* IE6-9 */
+}
+
 .content 
 {   
      width: 75%;
      margin: auto;
+}
+
+.content h1{
+font-weight:bold;
 }
 
 #main-slider-nav-ul a
@@ -43,6 +59,13 @@ margin: 6px;
 }
 
 .liquid-slider .polaroid .title{
+padding: 10px;
+color:black; font-size:18px;
+font-family:verdana;
+font-weight:600;
+}
+
+.liquid-slider .polaroid .title2{
 padding: 10px;
 color:black; font-size:18px;
 font-family:verdana;
