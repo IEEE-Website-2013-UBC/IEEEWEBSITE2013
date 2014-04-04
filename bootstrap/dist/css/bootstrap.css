@@ -331,7 +331,7 @@ img {
 .img_link_long{
 	width: 100%;
 	height: 20px;
-	margin-top:5%;
+	margin-top:15%;
 }
 
 hr { //
@@ -685,10 +685,11 @@ pre code {
 }
 
 .row_rectangle {
-	margin-top: 10px;
-	margin-right: 2%;
-	margin-left: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2%;
 	position:relative;
+	width:70%;
 	//height: 20%;
 }
 
@@ -5585,7 +5586,7 @@ body.modal-open,.modal-open .navbar-fixed-top,.modal-open .navbar-fixed-bottom
 	max-width: 100%;
 	line-height: 1;
 	margin: 0 auto;
-	height: 570px;
+	height: 455px;
 	width: 100%;
 }
 
@@ -6374,11 +6375,11 @@ th.visible-print,td.visible-print {
 
 .header-image{
 	display:inline-block;
-	height:168px;
+	height: 20%;
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	margin-bottom:-0.5%;
+	margin-bottom: -3.55%;
 }
 
 .header-image img {
