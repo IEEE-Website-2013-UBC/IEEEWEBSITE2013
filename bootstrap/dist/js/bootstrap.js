@@ -345,7 +345,6 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     if (this.sliding)       return this.$element.one('slid', function () { that.to(pos) })
     if (activeIndex == pos) return this.pause().cycle()
     
-    
     return this.slide(pos > activeIndex ? 'next' : 'prev', $(this.$items[pos]))
   }
 
@@ -385,6 +384,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
       $next = this.$element.find('.item')[fallback]()
     }
 
+    
     this.sliding = true
 
     isCycling && this.pause()
