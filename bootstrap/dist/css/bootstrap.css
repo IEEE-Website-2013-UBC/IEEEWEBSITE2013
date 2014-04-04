@@ -331,7 +331,7 @@ img {
 .img_link_long{
 	width: 100%;
 	height: 20px;
-	margin-top:5%;
+	margin-top:15%;
 }
 
 hr { //
@@ -685,10 +685,11 @@ pre code {
 }
 
 .row_rectangle {
-	margin-top: 10px;
-	margin-right: 2%;
-	margin-left: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2%;
 	position:relative;
+	width:70%;
 	//height: 20%;
 }
 
