@@ -27,15 +27,51 @@
 	$(document).ready(function(){
 		$("#area1").hide();
 		$("#area2").hide();
+		$("#area3").hide();
+		$("#area4").hide();
+		$("#area5").hide();
+		$("#area6").hide();
 		$("#dot1").hover(function(){
 			$("#area1").fadeIn();
+			$("#area0").hide();
 		},function(){
-			$("#area1").fadeOut();
+			$("#area1").hide();
+			$("#area0").fadeIn();
 		});
 		$("#dot2").hover(function(){
 			$("#area2").fadeIn();
+			$("#area0").hide();
 		},function(){
-			$("#area2").fadeOut();
+			$("#area2").hide();
+			$("#area0").fadeIn();
+		});
+		$("#dot3").hover(function(){
+			$("#area3").fadeIn();
+			$("#area0").hide();
+		},function(){
+			$("#area3").hide();
+			$("#area0").fadeIn();
+		});
+		$("#dot4").hover(function(){
+			$("#area4").fadeIn();
+			$("#area0").hide();
+		},function(){
+			$("#area4").hide();
+			$("#area0").fadeIn();
+		});
+		$("#dot5").hover(function(){
+			$("#area5").fadeIn();
+			$("#area0").hide();
+		},function(){
+			$("#area5").hide();
+			$("#area0").fadeIn();
+		});
+		$("#dot6").hover(function(){
+			$("#area6").fadeIn();
+			$("#area0").hide();
+		},function(){
+			$("#area6").hide();
+			$("#area0").fadeIn();
 		});
 	});
 	</script>
@@ -104,24 +140,71 @@
 	  <div class="row">
 		<div class = "col-md-6">
 		  <div style="position: relative; left: 0; top: 0;">
-            <img class="img-rectangle" src="image/map_germany.png" width="80%" height="100%" style="position: relative; top: 0; left: 0"/>
-            <img class="img-circle" src="image/dot.png" style="position: absolute; top: 5%; left: 5%;" height="3.5%" width="5%" href="Inter_Trip_2014.html" id="dot1"/>
-			<img class="img-circle" src="image/dot.png" style="position: absolute; top: 30%; left: 40%;" height="3.5%" width="5%" href="Inter_Trip_2014.html" id="dot2"/>
+            <img class="img-rectangle" src="image/map_germany.png" width="100%" height="80%" style="position: relative; top: 0; left: 0"/>
+            <img class="img-circle" src="image/dot.png" style="position: absolute; top: 33%; left: 50%;" height="2.25%" width="2.5%" href="Inter_Trip_2014.html" id="dot1"/>
+			<img class="img-circle" src="image/dot.png" style="position: absolute; top: 36%; left: 57%;" height="2.25%" width="2.5%" href="Inter_Trip_2014.html" id="dot2"/>
+			<img class="img-circle" src="image/dot.png" style="position: absolute; top: 42%; left: 54.5%;" height="2.25%" width="2.5%" href="Inter_Trip_2014.html" id="dot3"/>
+			<img class="img-circle" src="image/dot.png" style="position: absolute; top: 44%; left: 87%;" height="2.25%" width="2.5%" href="Inter_Trip_2014.html" id="dot4"/>
+			<img class="img-circle" src="image/dot.png" style="position: absolute; top: 75%; left: 66%;" height="2.25%" width="2.5%" href="Inter_Trip_2014.html" id="dot5"/>
+			<img class="img-circle" src="image/dot.png" style="position: absolute; top: 75%; left: 72%;" height="2.25%" width="2.5%" href="Inter_Trip_2014.html" id="dot6"/>
           </div>
 		</div>
 		<div class ="col-md-6">
 		  <!-- <div style="position: relative; left: 0; top: 0;"> -->
 		    <center>
-		      <p id="area1" >
-			    <img class="img-square" src="image/color_lion.jpg" width="200" height="200"/> 
+			  <p id="area0" >
+				<img class="img-square" src="image/munich.jpg" width="80%" height="40%"/>
 				<br>
-				Wolololol
+				<br>
+				The IEEE UBC club went on a trip to Munich, Germany during the 2013 Winter Session to attend to talks made by multiple companies in order to further their professional career.
+				<br>
+				<br>
+				Each point in the map represents a different stop on the trip. Hover over any of the points to find out more information the companies. 
+			  </p>
+			  
+		      <p id="area1" >
+			    <img class="img-square" src="image/BMW.jpg" width="45%" height="30%"/> 
+				<br>
+				<br>
+				BMW is a German automobile, motorcycle and engine manufacturing company founded in 1916. It is the producer of Mini cars, and is the parent company of Rolls-Royce Motor Cars. 	BMW is known as part of the "German Big 3" luxury automakers.
 			  </p>
 			
 			  <p id="area2" >
-			    <img class="img-square" src="image/map.png" width="200" height="200"/> 
+			    <img class="img-square" src="image/frog.jpg" width="60%" height="30%"/> 
 				<br>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat rhoncus mi vel iaculis. Suspendisse aliquet tortor eget nisl gravida, facilisis fermentum neque lacinia. In congue posuere interdum. Donec ut mi egestas, cursus arcu sed, facilisis lectus. Suspendisse dignissim dui lectus, id ultricies orci vehicula ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus dapibus ac elit non consectetur. Maecenas orci ligula, accumsan a scelerisque non, auctor sed dolor.
+				<br>
+				Frog Designs is a global innovation firm founded in 1969. Its capabilities have expanded and Frog Designs calls itself a "global innovation firm", creating and bringing to market products, services, and experiences.
+			  </p>
+			  
+			  <p id="area3" >
+			    <br>
+			    <img class="img-square" src="image/Siemens.png" width="75%" height="16%"/> 
+				<br>
+				<br>
+				<br>
+				Siemens AG is a German multinational engineering and electronics conglomerate company founded in 1847. It is Europe's largest engineering company and maker of medical diagnostics equipment. Siemens' focuses on the fields of industry, energy, transportation and healthcare.
+			  </p>
+			  
+			  <p id="area4" >
+				<br>
+			    <img class="img-square" src="image/Brainlab.png" width="80%" height="20%"/> 
+				<br>
+				<br>
+				Brainlab AG is a German medical technology company founded in 1989. It develops medical technology for image-guided surgery, radiation oncology, and medical image exchange. Brainlab produces both software and hardware for the fields of neurosurgery, radiation oncology, orthopedic surgery, ENT surgery, CMF surgery, spine surgery, and trauma surgery.
+			  </p>
+			  
+			  <p id="area5" >
+			    <img class="img-square" src="image/infineon.jpg" width="65%" height="30%"/> 
+				<br>
+				<br>
+				Infineon Technologies AG is a German semiconductor manufacturer founded in 1999, after the semiconductor operations of its parent company, Siemens AG, spun off to form a different legal entity. Infineon Technologies AG offers semiconductors and systems for automotive, industrial, and multimarket sectors, as well as chipcard and security products.
+			  </p>
+			  
+			  <p id="area6" >
+			    <img class="img-square" src="image/Lantiq.jpg" width="80%" height="30%"/> 
+				<br>
+				<br>
+				Lantiq is a fabless semiconductor company, founded in 2009. Lantiq focuses on making semiconductor products for computer networks used by common carrier telecommunications companies in access networks and home networking.
 			  </p>
 			</center>
 		  <!-- </div> -->
