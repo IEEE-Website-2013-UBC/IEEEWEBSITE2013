@@ -5586,7 +5586,7 @@ body.modal-open,.modal-open .navbar-fixed-top,.modal-open .navbar-fixed-bottom
 	max-width: 100%;
 	line-height: 1;
 	margin: 0 auto;
-	height: 570px;
+	height: 453px;
 	width: 100%;
 }
 
@@ -6375,7 +6375,7 @@ th.visible-print,td.visible-print {
 
 .header-image{
 	display:inline-block;
-	height:168px;
+	height: 20%;
 	position: relative;
 	width: 100%;
 	overflow: hidden;
