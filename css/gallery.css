@@ -10,10 +10,15 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#a7cfdf',GradientType=1 ); /* IE6-9 */
 }
 
-.content 
-{   
-     width: 75%;
-     margin: auto;
+.background #nav-wrapper{
+    position:absolute;
+    z-index:1;
+}
+
+.content {   
+    width: 75%;
+    margin: auto;
+    
 }
 
 .content h1{
@@ -58,22 +63,15 @@ height:200px;
 margin: 6px;
 }
 
-.liquid-slider .polaroid .title{
-padding: 10px;
-color:black; font-size:18px;
-font-family:verdana;
-font-weight:600;
-}
-
-.liquid-slider .polaroid .title2{
-padding: 10px;
+.liquid-slider .polaroid .name{
+padding: 0px 5px;
 color:black; font-size:18px;
 font-family:verdana;
 font-weight:600;
 }
 
 .liquid-slider .polaroid .date{
-padding: 10px;
+padding: 0px 5px;
 color:black; font-size:12px;
 font-family:verdana;
 font-style:italic;
