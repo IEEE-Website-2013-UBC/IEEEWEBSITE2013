@@ -14,6 +14,7 @@
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <script src="bootstrap/assets/js/respond.min.js"></script>  
+	
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="bootstrap/assets/js/html5shiv.js"></script>
@@ -22,7 +23,88 @@
 
     <!-- Custom styles for this template -->
     <link href="navbar.css" rel="stylesheet">
-
+	<link href="general.css" type="text/css" rel="stylesheet"/>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#area1").hide();
+		$("#area2").hide();
+		$("#area3").hide();
+		$("#area4").hide();
+		$("#area5").hide();
+		$("#area6").hide();
+		$("#dot1").hover(function(){
+			$("#area1").fadeIn();
+			$("#area0").hide();
+			$("#area2").hide();
+			$("#area3").hide();
+			$("#area4").hide();
+			$("#area5").hide();
+			$("#area6").hide();
+		},function(){
+		});
+		$("#dot2").hover(function(){
+			$("#area2").fadeIn();
+			$("#area0").hide();
+			$("#area1").hide();
+			$("#area3").hide();
+			$("#area4").hide();
+			$("#area5").hide();
+			$("#area6").hide();
+		},function(){
+		});
+		$("#dot3").hover(function(){
+			$("#area3").fadeIn();
+			$("#area0").hide();
+			$("#area1").hide();
+			$("#area2").hide();
+			$("#area4").hide();
+			$("#area5").hide();
+			$("#area6").hide();
+		},function(){
+		});
+		$("#dot4").hover(function(){
+			$("#area4").fadeIn();
+			$("#area0").hide();
+			$("#area1").hide();
+			$("#area2").hide();
+			$("#area3").hide();
+			$("#area5").hide();
+			$("#area6").hide();
+		},function(){
+		});
+		$("#dot5").hover(function(){
+			$("#area5").fadeIn();
+			$("#area0").hide();
+			$("#area1").hide();
+			$("#area2").hide();
+			$("#area3").hide();
+			$("#area4").hide();
+			$("#area6").hide();
+		},function(){
+		});
+		$("#dot6").hover(function(){
+			$("#area6").fadeIn();
+			$("#area0").hide();
+			$("#area1").hide();
+			$("#area2").hide();
+			$("#area3").hide();
+			$("#area4").hide();
+			$("#area5").hide();
+		},function(){
+		});
+		$("#map").hover(function(){
+		},function(){
+			$("#area0").fadeIn();
+			$("#area1").hide();
+			$("#area2").hide();
+			$("#area3").hide();
+			$("#area4").hide();
+			$("#area5").hide();
+			$("#area6").hide();
+		});
+	});
+	</script>
   </head>
 
 <!-- NAVBAR
@@ -75,45 +157,92 @@
 
     <!--added to put a space between the navbar and the carousel-->
     <div style="display:inline-block; height:0px;"></div>
-
-
+	
+	<!--background-->
+	<div class="background">
+	
    <!--insert space-->
 	<div style="display:inline-block; height:50px;"> </div>
-    <div class="container marketing">
+		<div class="container marketing">
 
-      <!-- columns of text to show points of interest -->
-	<!--one of the rows with image on the left, text on the right-->
-      <div class="row">
-        <div class="col-lg-2">
-          <img class="img-circle" src="image/funny_cat.jpg" data-src="holder.js/140x140" alt="Generic placeholder image">
-        </div><!-- /.col-lg-3 -->
-        <div class="col-lg-10">
-                   <h3>Worship Cats</h3>
-          <p>Praised for controlling vermin and its ability to kill snakes such as cobras, the domesticated cat became a symbol of grace and poise. The goddess Mafdet, the deification of justice and execution, was a lion-headed goddess. The cat goddess Bast (also known as Bastet) eventually replaced the cult of Mafdet, and Bast's image softened over time and she became the deity representing protection, fertility, and motherhood.</p>
-        </div><!-- /.col-lg-10 -->
-      </div><!-- /.row -->
-	<!--one of the rows with image on the right, text on the left-->
-
-  <!--insert space-->
-	<div style="display:inline-block; height:50px;"> </div>
-
-      <div class="row">
-        <div class="col-lg-10">
-                   <h3>Worship Cats</h3>
-          <p>Praised for controlling vermin and its ability to kill snakes such as cobras, the domesticated cat became a symbol of grace and poise. The goddess Mafdet, the deification of justice and execution, was a lion-headed goddess. The cat goddess Bast (also known as Bastet) eventually replaced the cult of Mafdet, and Bast's image softened over time and she became the deity representing protection, fertility, and motherhood.</p>
-        </div><!-- /.col-lg-10 -->
-        <div class="col-lg-2">
-          <img class="img-circle" src="image/funny_cat.jpg" data-src="holder.js/140x140" alt="Generic placeholder image">
-        </div><!-- /.col-lg-2 -->
-
-      </div><!-- /.row -->
-        
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+		  <!-- columns of text to show points of interest -->
+		<!--one of the rows with image on the left, text on the right-->
+		  <div class="row">
+			<div class = "col-md-6">
+			  
+			  <div style="position: relative; left: 0; top: 0;">
+				<img class="img-rectangle" src="image/map_germany.png" width="100%" height="80%" style="position: relative; top: 0; left: 0; border-style:inset; border-color:darkblue; border-width:5px;" id="map"/>
+				<img class="img-circle" src="image/dot.png" style="position: absolute; top: 33%; left: 50%;" height="2.25%" width="2%" href="Inter_Trip_2014.html" id="dot1"/>
+				<img class="img-circle" src="image/dot.png" style="position: absolute; top: 36%; left: 57%;" height="2.25%" width="2%" href="Inter_Trip_2014.html" id="dot2"/>
+				<img class="img-circle" src="image/dot.png" style="position: absolute; top: 42%; left: 54.5%;" height="2.25%" width="2%" href="Inter_Trip_2014.html" id="dot3"/>
+				<img class="img-circle" src="image/dot.png" style="position: absolute; top: 44%; left: 87%;" height="2.25%" width="2%" href="Inter_Trip_2014.html" id="dot4"/>
+				<img class="img-circle" src="image/dot.png" style="position: absolute; top: 75%; left: 66%;" height="2.25%" width="2%" href="Inter_Trip_2014.html" id="dot5"/>
+				<img class="img-circle" src="image/dot.png" style="position: absolute; top: 75%; left: 72%;" height="2.25%" width="2%" href="Inter_Trip_2014.html" id="dot6"/>
+			  </div>
+			</div>
+			<div class ="col-md-6">
+			  <!-- <div style="position: relative; left: 0; top: 0;"> -->
+				<center>
+				  <p id="area0" >
+					<img class="img-square" src="image/munich.jpg" width="80%" height="45%" style="border-style:inset; border-color:darkblue; border-width:5px;"/>
+					<br>
+					<br>
+					The IEEE UBC club went on a trip to Munich, Germany during the 2013 Winter Session to attend to talks made by multiple companies in order to further their professional career.
+					<br>
+					<br>
+					Each point in the map represents a different stop on the trip. Hover over any of the points to find out more information the companies. 
+				  </p>
+				  
+				  <p id="area1" >
+					<img class="img-square" src="image/BMW.jpg" width="40%" height="40%" style="border-style:inset; border-color:darkblue; border-width:5px;"/> 
+					<br>
+					<br>
+					BMW is a German automobile, motorcycle and engine manufacturing company founded in 1916. It is the producer of Mini cars, and is the parent company of Rolls-Royce Motor Cars. 	BMW is known as part of the "German Big 3" luxury automakers.
+				  </p>
+				
+				  <p id="area2" >
+					<img class="img-square" src="image/frog.jpg" width="60%" height="30%" style="border-style:inset; border-color:darkblue; border-width:5px;"/> 
+					<br>
+					<br>
+					Frog Designs is a global innovation firm founded in 1969. Its capabilities have expanded and Frog Designs calls itself a "global innovation firm", creating and bringing to market products, services, and experiences.
+				  </p>
+				  
+				  <p id="area3" >
+					<br>
+					<img class="img-square" src="image/Siemens.png" width="75%" height="20%" style="border-style:inset; border-color:darkblue; border-width:5px;"/> 
+					<br>
+					<br>
+					<br>
+					Siemens AG is a German multinational engineering and electronics conglomerate company founded in 1847. It is Europe's largest engineering company and maker of medical diagnostics equipment. Siemens' focuses on the fields of industry, energy, transportation and healthcare.
+				  </p>
+				  
+				  <p id="area4" >
+					<br>
+					<img class="img-square" src="image/Brainlab.jpg" width="80%" height="20%" style="border-style:inset; border-color:darkblue; border-width:5px;"/> 
+					<br>
+					<br>
+					Brainlab AG is a German medical technology company founded in 1989. It develops medical technology for image-guided surgery, radiation oncology, and medical image exchange. Brainlab produces both software and hardware for the fields of neurosurgery, radiation oncology, orthopedic surgery, ENT surgery, CMF surgery, spine surgery, and trauma surgery.
+				  </p>
+				  
+				  <p id="area5" >
+					<img class="img-square" src="image/infineon.jpg" width="65%" height="30%" style="border-style:inset; border-color:darkblue; border-width:5px;"/> 
+					<br>
+					<br>
+					Infineon Technologies AG is a German semiconductor manufacturer founded in 1999, after the semiconductor operations of its parent company, Siemens AG, spun off to form a different legal entity. Infineon Technologies AG offers semiconductors and systems for automotive, industrial, and multimarket sectors, as well as chipcard and security products.
+				  </p>
+				  
+				  <p id="area6" >
+					<img class="img-square" src="image/Lantiq.jpg" width="80%" height="30%" style="border-style:inset; border-color:darkblue; border-width:5px;"/> 
+					<br>
+					<br>
+					Lantiq is a fabless semiconductor company, founded in 2009. Lantiq focuses on making semiconductor products for computer networks used by common carrier telecommunications companies in access networks and home networking.
+				  </p>
+				</center>
+			  <!-- </div> -->
+			</div>
+		  </div>
+		</div>
+	</div>
 
 
 
