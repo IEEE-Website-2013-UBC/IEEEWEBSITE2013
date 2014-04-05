@@ -1,7 +1,7 @@
 .content 
 {   
      width: 75%;
-     margin: 8px auto;
+     margin: 0px auto;
      background: #FFFFFF;
      padding: 0;  
      display: table;
@@ -44,14 +44,14 @@
 }
 
 a:link {
-COLOR: #BBBBBB !important;
+COLOR: #9999C2 !important;
 }
 a:visited {
-COLOR: #BBBBBB !important;
+COLOR:#9999C2!important;
 }
 a:hover {
-COLOR: #888888 !important;
+COLOR: #9999C2!important;
 }
 a:active {
-COLOR: #555555 !important;
+COLOR: #9999C2 !important;
 }
