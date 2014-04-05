@@ -1,39 +1,45 @@
-<<<<<<< HEAD:index.html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
+   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="image/IEEE-logo-small.png">
+	<link rel="shortcut icon" href="image/IEEE-logo-small.png">
+  <title>UBC IEEE Student Branch</title>
 
-    <title>UBC IEEE Branch</title>
+<!-- Bootstrap core CSS -->
+   <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet" title="compact">
+	
+<!-- Custom CSS for this page -->
+    <link href="accordian_EventPage.css" rel="stylesheet" >
 
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <script src="bootstrap/assets/js/respond.min.js"></script>  
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="bootstrap/assets/js/html5shiv.js"></script>
-      <script src="bootstrap/assets/js/respond.min.js"></script>
-    <![endif]-->
+<!--Jquery-->
+<link href="navbar.css" rel="stylesheet">
+<link href="calendar.css" type="text/css" rel="stylesheet"/>
+  <link rel="stylesheet" href="jquery-ui.css">
+  <script src="jquery-1.9.1.js"></script>
+  <script src="jquery-ui.js"></script>
+      <link href="general.css" type="text/css" rel="stylesheet"/>    
+  
+  <script>
+  $(function() {
+    $( "#accordion" ).accordion({ heightStyle: "content" });
+  });
+  </script>
 
-    <!-- Custom styles for this template -->
-    <link href="calendar.css" type="text/css" rel="stylesheet"/>
-    <link href="accordion.css" type="text/css" rel="stylesheet"/>
-    <link href="navbar.css" rel="stylesheet">
+</head>
 
-  </head>
+<body>
 
-<!-- NAVBAR
-================================================== -->
+<!-- ================================================== -->
+ 
+
   <body>
-   <div style="display:inline-block; height:240px;"> Insert header here </div>
-   
+   <div class = "header-image"><img src = "image/banner_1.png"></div>
+   <div style = "height:6.8%;"></div>
     <div style="height: 42px;" id="nav-wrapper">
-    <div id="nav" class="navbar affix" data-spy="affix" data-offset-top="240" data-offset-bottom="10">
+    <div id="nav" class="navbar affix-top" data-spy="affix" data-offset-top="168" data-offset-bottom="10">
         <div class="navbar-inner">
             <div class="container">
             <div class="navbar-header">
@@ -42,7 +48,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">IEEE UBC Branch</a>
+              <a class="navbar-brand" >IEEE UBC Branch</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -64,7 +70,7 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li><a href="Think_Engine_2014.html">Think Engineering 2014</a></li>
-                    <li><a href="Inter_Trip_2014.html">Internation Trip 2014</a></li>                    
+                    <li><a href="Inter_Trip_2014.html">Internation Trip 2014</a></li> 
                     <li><a href="Other_Events.html">Other Events</a></li>
                   </ul>
                 </li>
@@ -75,212 +81,634 @@
     </div> <!-- navbar -->
     </div>
 
-    <!--added to put a space between the navbar and the carousel-->
-    <div style="display:inline-block; height:0px;"></div>
+ <div class="background">
+<!--BIG BUTTON ROW-->
 
 
-   <!--insert space-->
-	<div style="display:inline-block; height:50px;"> </div>
-    <div class="container marketing">
+<!--EVENTS ACCORDIAN-->
+<!--See template at botom of page for additions-->
+<div id = "container_acc">
+<div id="accordion">
 
-      <!-- columns of text to show points of interest -->
-	<!--one of the rows with image on the left, text on the right-->
-      <div class="row">
-        <div class="col-lg-2">
-          <img class="img-circle" src="image/funny_cat.jpg" data-src="holder.js/140x140" alt="Generic placeholder image">
-        </div><!-- /.col-lg-3 -->
-        <div class="col-lg-10">
-                   <h3>Worship Cats</h3>
-          <p>Praised for controlling vermin and its ability to kill snakes such as cobras, the domesticated cat became a symbol of grace and poise. The goddess Mafdet, the deification of justice and execution, was a lion-headed goddess. The cat goddess Bast (also known as Bastet) eventually replaced the cult of Mafdet, and Bast's image softened over time and she became the deity representing protection, fertility, and motherhood.</p>
-        </div><!-- /.col-lg-10 -->
-      </div><!-- /.row -->
-	<!--one of the rows with image on the right, text on the left-->
+<!--Wireless Venture Competition-->
+ <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">March</p>
+      <p style="font-size:30px">24</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 6:30PM-8:30PM</h5>
+      <h5> Location: UBC Macleod 418 </h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> Wireless Venture Competition </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+<p>      The Wireless Solutions Completion is a design competition that was introduced by Dr. Dave Michelson, Department of Electrical and Computer Engineering at UBC. The process of the competition encourages students to work in a real-life problem solving environment and provides a unique and exciting opportunity for students who are interested in challenging a wireless problem from different perspectives.</p>
 
-  <!--insert space-->
-	<div style="display:inline-block; height:50px;"> </div>
+<p>The objective of the Wireless Solutions Competition is to:</p>
 
-      <div class="row">
-        <div class="col-lg-10">
-                   <h3>Worship Cats</h3>
-          <p>Praised for controlling vermin and its ability to kill snakes such as cobras, the domesticated cat became a symbol of grace and poise. The goddess Mafdet, the deification of justice and execution, was a lion-headed goddess. The cat goddess Bast (also known as Bastet) eventually replaced the cult of Mafdet, and Bast's image softened over time and she became the deity representing protection, fertility, and motherhood.</p>
-        </div><!-- /.col-lg-10 -->
-        <div class="col-lg-2">
-          <img class="img-circle" src="image/funny_cat.jpg" data-src="holder.js/140x140" alt="Generic placeholder image">
-        </div><!-- /.col-lg-2 -->
+<ol>
+<li>Stimulate interest in the use of wireless technology to help university departments, clubs, and other campus organizations serve their members and achieve their goals</li>
+<li>Help students develop their ability to identify potential applications of new technologies.</li>
+<li>Help students develop their ability to prepare and present concise and well-considered proposals regarding technical topics.</li>
+</ol>
 
-      </div><!-- /.row -->
+<p>Students will submit a proposal about a new service, application or research that will make the UBC Wireless Network (or other wireless access services that campus users have access to) more useful to university departments, clubs and other campus organizations. Students with the best proposals will have the opportunity to present their solutions in front of a judging panel consisting of industry professionals that will evaluate their presentation and submission.</p>
 
-    <!--Accordion
-      ================================================== -->
-      
-        <div class="bs-example">
-        <h3><b>Lastest News</b></h3>
-        <hr class="featurette-divider">
-            <div class="panel-group" id="accordion">
-                <!--1-->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">                                
-                                <div class="accordionEventDate">23</div>
-                                <div class="accordionEventTitle">
-                                    <div class="text">
-                                        <h1>first event heading</h1>
-                                        first event
-                                    </div>
-                                    <div class="image" style="background: url(image/funny_cat.jpg);"></div>
-                                </div>                                                     
-                            </a>         
-                        </h4>
-                    </div>
-                    <div id="collapseOne" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <div class="image" style="background: url(image/funny_cat.jpg);"></div>
-                            <p>
-                                CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties
-                                for a given HTML element such as colors, backgrounds, fonts etc. 
-                                <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a>
-                            </p>                            
-                        </div>
-                    </div>
-                </div>
+<p>Jugdes:</p>
+<ol>
+<li>Elham Torabi, MASc. TELUS - Mobile Broadband Networks Planning & Engineering</li>
+<li>Ian Hung, P. Eng. TELUS - Mobile Broadband Network Planning & Engineering</li>
+<li>Jeremy Cohoe, Network Analyst, Network Management Centre, Information Technology, UBC</li>
+<li>Ian Procyk, Regional Wireless Expert, Cisco Systems</li>
+<li>Matt McColl, Regional Wireless Expert, Cisco Systems</li>
+</ol>
+<p>First Place: Remy Savard</p>
+<p>Second Place: Tanya Nair Ruibing Zhao</p>
+<p>Third Place: Adrian Wong, Weing Kai Wee, William Yeung </p>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
 
-                <!--2-->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                <div class="accordionEventDate">23</div>
-                                <div class="accordionEventTitle">
-                                    <div class="text">
-                                        <h1>Second event</h1>
-                                        Second event
-                                    </div>
-                                    <div class="image" style="background: url(image/test4.png)"></div>
-                                </div>
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseTwo" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <div class="image" style="background: url(image/test4.png)"></div>
-                            <p>
-                                CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties
-                                for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/"
-                                    target="_blank">Learn more.</a></p>
-                        </div>
-                    </div>
-                </div>
+ 
+<!--FEBRUARY-->
 
-                <!--3-->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                <div class="accordionEventDate">23</div>
-                                <div class="accordionEventTitle">
-                                    <div class="text">
-                                        <h1>Third event</h1>
-                                        sdfsdfsdfsdfsdfsdfdfffffffffffffffsdfsdfsdfsdfsdfsdfdfffffff
-                                        <br> ffffffffsdfsdfsdfsdfsdfsdfdfffffffffffffffsdfsdfsdfsd
-                                        <br> fsdfsdfdfffffffffffffffsdfsdfsdfsdfsdfsdfdfffffffffffffffsdfsdfsdfsdfsdfsdfdfffffffffff
-                                        <br> ffffsdfsdfsdfsdfsdfsdfdfffffffffffffffsdfsdfsdfsdfsdfsdfdfffffffffffffff
-                                    </div>
-                                    <div class="image" style="background: url(image/banner.PNG);"></div>
-                                </div>
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <div class="image" style="background: url(image/banner.PNG);"></div>
-                            <p>
-                                HTML stands for HyperText Markup Language. HTML is the main markup language for
-                                describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/"
-                                    target="_blank">Learn more.</a></p>
-                        </div>
-                    </div>
-                </div>
+<!--Fortinet Site Visit-->
+  <div class="row featurette">
+    <div class="col-md-1 " style="text-align: center">
+      <p style="font-size:18px">February</p>
+      <p style="font-size:30px">28</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 2:00PM - 5:00PM</h5>
+      <h5> Location: 400 - 4190 Still Creek Drive, Burnaby</h5>
+</div>
+    <div class="col-md-6" style="text-align: center">
+      <h2>Fortinet Site Visit</h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p>
+Fortinet is a global computer network security company with 2300+ employees worldwide.  We are the 3rd largest provider of network security solutions and a recognized leader in the UTM space.  Our R&D headquarters is in Burnaby, with 500 engineers who work on our products.  As one of the main players in this industry, Fortinet has become an employer of choice, and we want talent like you!  Our New Grad Program has been a huge success, hiring over 100 new grads in the past few years.<p>
 
-                <!--4-->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                <div class="accordionEventDate">23</div>
-                                <div class="accordionEventTitle">
-                                    <div class="text">
-                                        <h1>Forth event</h1>
-                                        aaaaaaaaaaaa aaaaaaaaaaaa aaaaaa aaaaaa aaaaa aaaaaaa <br> aaaaaa aaaaaa aaaaaaaaaaaa aaaaaa aaaaaa <br> aaaaaa aaaaaa aaaaaaaaaaaa aaaaaaaaaaaa
-                                    </div>
-                                   <div class="image" style="background: url(image/IEEE-logo-small.png);"></div>
-                                </div>
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseFour" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <div class="image" style="background: url(image/IEEE-logo-small.png);"></div>
-                            <p>
-                                Twitter Bootstrap is a powerful front-end framework for faster and easier web development.
-                                It is a collection of CSS and HTML conventions. <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/"
-                                    target="_blank">Learn more.</a></p>
-                        </div>
-                    </div>
-                </div>
+<p>On February 28th, we are collaborating with UBC IEEE to put on an exclusive Fortinet Open House where you get the opportunity to visit our office and learn all about the company.  This open house involves a tour of our facility, a presentation/lecture from a seasoned Product Manager on a hot topic, and an overview from our hiring managers on what skill set they are looking for, and what products they work on.  You will also get to meet the managers one-on-one.<p>
 
-                <!--5-->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                <div class="accordionEventDate">23</div>
-                                <div class="accordionEventTitle">
-                                    <div class="text">
-                                        <h1>Fifth event</h1>
-                                        fifth event
-                                    </div>
-                                    <div class="image" style="background: url(image/test3.jpg)"></div>
-                                </div>
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseFive" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <div class="image" style="background: url(image/test3.jpg)"></div>
-                            <p>
-                                CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties
-                                for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/"
-                                    target="_blank">Learn more.</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-            
-            <div class= "carousel_number">
-				<span><a class = "number" href = "#">1</a></span>
-				<span><a class = "number" href = "#">2</a></span>
-				<span><a class = "number" href = "#">3</a></span>
-				<span><a class = "number" href = "#">4</a></span>
-				<span><a class = "number" href = "#">5</a></span>
-            </div>
-        </div>
-        
+<p>This is a valuable experience for you if you want a career in network security.  Come prepared with thought provoking questions, and a resume, outlining the position(s) you are interested in.  Do some research beforehand on our careers page - <a href="https://www.fortinet.com/careers"> www.fortinet.com/careers</a> .</p>
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+<p>Please email Fiona Ho in Human Resources (fho@fortinet.com) if you have any questions.</p>
+<P>Please arrive between 1:30 - 2:00PM to avoid delays to the event.</p>
+<p>There will be refreshments, door prizes, and job opportunities.</p> 
+
+      <p> Location Entry: Enter via West Entrance and let the receptionist know you are here for the open house<p>
+      <p> Parking at Location: Pay parking available<p>
+      <p> Register:<a href="http://tinyurl.com/ubcieeefortinet">Fortinet Registration</a><p>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--UBC North Substation-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">February</p>
+      <p style="font-size:30px">27</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 1:30PM</h5>
+      <h5> Location: UBC</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2>UBC North Substation</h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p>
+The Head electrician will be conducting the tour and will relate the tour to EECE 459: Power and System Analysis II. 
+
+NOTE: Attendees must provide his/her own CSA approved footwear with the omega sign on it. Hard hats will be provided at the site.
+      <p> 
+	  
+	  <p>Register:<a href="http://tinyurl.com/UBCsubstation">UBC North Substation Registration</a><p>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--Powertech Labs�� Tour-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">February</p>
+      <p style="font-size:30px">25/26</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 1:00PM - 4:00PM for both days</h5>
+      <h5> Location: 12388 88 Ave, Surrey, BC V3W 3J4 Canada</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> Powertech Labs</h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p>
+Powertech Labs are a BC Hydro subsidiary, specializing in clean energy consulting, independent testing, and power system solutions. They are also open to applications from UBC co-op and graduate students and encourage you to bring your resumes! At the tour, we will be taking a look at Smart Utility, Chemistry, High Voltage Lab, High Power Lab (if possible), and EV station. There will be snacks and drinks as well as having a chance to mingle for about half an hour.
+      <p> 
+	  
+	  <p> Register:<a href="http://tinyurl.com/powertechTour">Powertech Registration</a><p>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--Kardium Tour-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">February</p>
+      <p style="font-size:30px">14</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 1:00PM</h5>
+      <h5> Location: 100-12851 Rowan Place, Richmond, BC, V6V 2K5 Canada</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> Kardium Tour</h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p>
+      Kardium specializes in developing a groundbreaking medical device for the diagnosis and treatment of atrial fibrillation. For more information about Kardium, please visit <a href="http://kardium.com/">here</a>
+      <p> 
+	  <p>Register:MacLeod 319 by February 13th at 1:00PM
+      <p> Cost: Free ($5 deposit)<p>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--Toastmasters-->
+<!--Wait for Aidrian to get info-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">February</p>
+      <p style="font-size:30px">13</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 3:00PM-5:00PM</h5>
+      <h5> Location: UBC Kaiser 2010</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> Toastmasters </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p>
+      Get information from Adrian
+      </p>
+	  <p>Register: www.IEEEisthebest.com/register<p>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--January-->
+<!--UBC Technical Career Fair 2014-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">January</p>
+      <p style="font-size:30px">30</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 10:00AM-4:00PM</h5>
+      <h5> Location: UBC Life Sciences Center, West Atrium</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> UBC Technical Career Fair 2014 </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p> Welcome to the 2014 Technical Career Fair! This fair consists of over 50 companies, coming from a wide range of disciplines including Computer Science, Cognitive Systems, Engineering Physics, and Electrical and Computer Engineering. This is a wonderful way to showcase your portfolio, and network with a wide range of companies for the purposes of internships and post-grad careers.
+      </p>
+      <p> For more information visit <a href="www.cs.ubc.ca/industry/techcareerfair">this website.</a> </p>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--ASME/IEEE Joint Panel Discussion-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">January</p>
+      <p style="font-size:30px">29</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 6:00PM-7:00PM</h5>
+      <h5> Location: UBC Chemical & Biological Engineering 102</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2>ASME/IEEE Joint Panel Discussion </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p> The panel presentation will be focused on exposing students to different fields, allowing them to peek into the life of an engineer, igniting their interest, and helping them become better engineers by example. The four speakers who have confirmed that they will attend the presentation are:</p>
+    <ul>
+      <li>Nima Nabavi: Head of Mechanical Engineering Department of Motion Metrics</li>
+      <li>George Steeves: President of Sterling Cooper Consultants Inc.</li>
+      <li>Jesse Schuhlein: Product development manager of Zaber Technologies Inc.</li>
+      <li>Daniel Chitsaz: Project manager/Client Relations of Enginuity Consulting Ltd.</li>
+   </ul>
+   <p>Refreshments will be served. I hope to see you there!</p>
+    </div>
+    <div class="col-md-4">
+ <!--TODO- add pic from ieee library?-->
+    </div>
+  </div>
 
 
+<!--December (no events)-->
+
+<!--November-->
+<!--BC Hydro Dr. Nagpal Seminar-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">November</p>
+      <p style="font-size:30px">15</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 2:00PM-3:00PM</h5>
+      <h5> Location: UBC Kaiser 2020</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> BC Hydro Seminar </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+<p>  The UBC IEEE Student Branch and IEEE-PES Vancouver Section is hosting a seminar about Dr. Mukesh Nagpal journey to becoming a Principal Engineer and Engineering Manager at BC Hydro. He will also be talking about the state of the power industry in Vancouver and British Columbia. He will give tips on how to land a job in the power industry. Mike Godyn, BC Hydro Recruitment Partner (specializing in co-op and EIT recruiting), will also attend. <p>
+
+<p>Biography:<p>
+
+<p>
+Mukesh Nagpal received the Ph.D. and M.Sc. degrees in electrical engineering from the University of Saskatchewan, Canada in 1990 and 1986, respectively.  Dr. Nagpal is a senior member of IEEE, IEEE-PES distinguish lecturer, part-time faculty at University of British Columbia, and registered member of Association of Professional Engineers and Geoscientists of British Columbia (BC), Canada.<p>
+
+<p>
+Currently, he is a Principal Engineer/Manager with the Protection and Control Planning Group within BC Hydro Engineering.  He has more than 21 years of experience in electrical consulting, utility research and power system protection.  Dr. Nagpal has written about 40 technical papers on power system relaying or related topics.  His presentation received "Best-of-Show" award at BC Hydro's 2007 P&C Telecom Annual Technical Conference.  Last year, BC Hydro conferred him with a prestigious "Mentorship Award" for his commitment to training and development of new engineers within and outside the organization.<p>
+
+<p>Dr. Mukesh Nagpal will be teaching EECE 497 with Professor Charles Henville
+starting January 2014.<p>
+<p>   
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--Second Annual PES Industry Mixer-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">November</p>
+      <p style="font-size:30px">14</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 7:00PM</h5>
+      <h5> Location: New Oxford Public House-Top Floor</h5>
+      <h5>1144 Homer Street  Vancouver, BC V6B 2X6</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> Power & Energy Society Industry and Student Networking Event </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+    <p>The IEEE Power & Energy Society (PES) team is hosting their second Industry and Student Networking Event!<p>
+
+<p>This event is for students and industry representatives to mingle with one another in a non-formal environment. Many of the companies are known for hiring students so bring your best! Engineering grads are in demand and companies are looking to get ahead of the competition with the talent they recruit.
+<p>
+
+<p>
+Companies attending this event include Amec, BC Hydro, Fluor, Klohn Crippen Berger, Powertech, and SNC-Lavalin<p>
+
+<p>Where: New Oxford Public House - Top Floor (1144 Homer Street  Vancouver, BC V6B 2X6)<p>
+<p>When: 7:00PM on November 13th 2013<p>
+<p>Ticket Price:<p>    
+<p>$20 per IEEE Member<p>
+<p>$25 per non-IEEE Member<p>
+<p>The ticket price includes food and one drink (non-alcoholic if younger than 19 years old).<p>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--October-->
+
+<!--WIE Coffee House-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">October</p>
+      <p style="font-size:30px">28</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 5:00PM-6:30PM</h5>
+      <h5> Location: UBC Macleod 211</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> "Hot Java!": IEEE Women in Engineering Coffeehouse </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p>
+      In the spirit of encouraging conversations, discussions and dialog about important topics concerning the role women play in engineering fields , we are hosting "Hot Java!", an IEEE UBC Women in Engineering coffeehouse.</p>
+
+<p>Our topic will be Engineer of Female Engineer: What's the Difference?</p>
+
+<p>Come out and join us to discuss issues faced by women in engineering with us! Coffee and snacks will be provided. </p>
+    </div>
+    <div class="col-md-4">
+<!--get poster image from facebook event (Theresa)-->
+    </div>
+  </div>
+
+<!--Graduate Studies Info Session-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">October</p>
+      <p style="font-size:30px">28</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 1:00AM-7:30PM</h5>
+      <h5> Location: UBC Kaiser Labs and 2020</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> Graduate Studies Information Session</h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p> The UBC IEEE Student Branch and the Electrical and Computer Engineering (ECE) department is hosting an event to promote postgraduate education within the UBC ECE department. This event is a great opportunity for your lab to showcase the research in your lab to 3rd & 4th year undergraduate students who are interested in pursuing graduate studies in ECE.</p>
+<p>1:00pm - 5:00pm Various lab tours (Robotics and Control Laboratory, Radio Science Lab, Software Analysis and Testing (SALT), Microsystems and Nanotechnology (MiNa) Research Group, System on a Chip, Biomedical Signals and Image Computing Lab (BiSICL), Living Lab, Alpha tech Laboratories and Electric Power and Energy Systems Research Group)</p>
+<p>5:30pm - 6:30pm Panel discussion in Kaiser 2020/Key note by Dr. Ivanov</p>
+<p>6:30pm - 7:30pm Dinner and networking in Kaiser 2020</p>
+<p>Register: www.IEEEisthebest.com/register<p>
+    </div>
+    <div class="col-md-4">
+ <!--photo?-->
+    </div>
+  </div>
+
+<!--IEEE Xtreme 7.0-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">October</p>
+      <p style="font-size:30px">26/27</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 5:00PM-5:00PM</h5>
+      <h5> Location: UBC Macleod 348</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> IEEE Xtreme 7.0 </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p>  IEEEXtreme is a global challenge in which teams of IEEE Student members, supported by an IEEE Student Branch, advised and proctored by an IEEE member, compete in a 24-hour time span against each other to solve a set of programming problems.
+      </p>
+<p>WHO CAN COMPETE?</p>
+<ul>
+<li>Teams of up to three IEEE students or graduate student members in good standing</li>
+<li>Student Branches can form multiple teams</li>
+</ul>
+<p>WHERE IS THE COMPETITION HELD?</p>
+<ul>
+<li> At your local IEEE student branch, where you'll compete head-to-head online.</li>
+</ul>
+<p>WHAT COULD I WIN?</p>
+<ul>
+<li>Fame: Unlimited bragging rights and an item for your resume.</li>
+<li>Fortune: The Grand Prize is a trip to the IEEE conference of your choice, anywhere in the world.</li>
+</ul>
+<p>For more information, visit: <a href=��www.ieee.org/xtreme��>www.ieee.org/xtreme</a></p>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--Where Can You Go - Life After Graduation: Kallol Mitra-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">October</p>
+      <p style="font-size:30px">23</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 5:00PM - 6:30PM</h5>
+      <h5> Location: UBC Kaiser 2020</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> Where Can You Go - Life After Graduation: Kallol Mitra</h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+<p>
+Do you want to know what its like to work at Electronic Arts? Would you like to know how to land a co-op position or a full time job at Electronic Arts? UBC IEEE Student Branch invited Kallol Mitra (Technical Director at EA) and Sarah Thompson (Unversity Liasons at EA) to UBC. See what EA can offer you and get some free swag. So, don't miss out!<p>
+
+<p>Biography:<p>
+<p>Kallol Mitra is a Computer Engineering Alumni from UBC who is currently working as a Technical Director for the FIFA business unit at Electronic Arts.  Kallol graduated from UBC with a BASc in 2004 and has worked for EA since then starting as an entry level Software Engineer.  Kallol is also currently a board director of a not-for profit organization that promotes South Asian art and culture.  In the past Kallol was an executive member and president of a Lower Mainland cultural society.  In his spare time Kallol plays guitar and acts part time in local theater.
+<p>
+</div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--Team Bonding Session-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">October</p>
+      <p style="font-size:30px">4</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 5:00PM - 6:30PM</h5>
+      <h5> Location: UBC Kaiser 2020</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> Team Bonding Session </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+	<h2>[NOT DONE]</h2>
+</div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--LaTeX Workshop-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">October</p>
+      <p style="font-size:30px">2</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 2:00PM - 3:30PM</h5>
+      <h5> Location: UBC Macleod 358</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> LaTeX Workshop </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p>
+     Abtin Rasoulian has offered to share his knowledge on using Latex.  This workshop will cover the fundamentals for people starting out in Latex or who would like a solid introduction.  Light refreshments will be provided.
+
+ <p>
+
+</div>
+    <div class="col-md-4">
+    </div>
+  </div>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="bootstrap/assets/js/jquery.js"></script>
-    <script src="bootstrap/dist/js/bootstrap.js"></script> <!-- Change to botstrap.js for now -->
-    <script src="bootstrap/assets/js/holder.js"></script>
-  </body>
+<!--IEEE Day-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">October</p>
+      <p style="font-size:30px">1</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 11:00AM - 1:00PM</h5>
+      <h5> Location: UBC Macleod 319</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> IEEE Day </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p>
+      Celebration of IEEE Day with an ice cream social! <p>
+
+</div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+
+<!--September-->
+
+<!--Introductory MATLAB-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">September</p>
+      <p style="font-size:30px">18</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 4:00PM - 6:00PM</h5>
+      <h5> Location: UBC Macleod 348</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> Introductory MATLAB</h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p>
+     Matlab workshop is co-hosted with ECEGSA. Mohamed Osama Ahmed will be leading a workshop on MATLAB that should cover the fundamental skills needed.  Whether you're new to MATLAB or looking to brush up, join us for this workshop.  Light Refreshments will be provided.
+      <p>   
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--Where Can You Go - Life After Graduation: Iva Yuen-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">September</p>
+      <p style="font-size:30px">18</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 1:00PM - 2:00PM</h5>
+      <h5> Location: UBC Macleod 418</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> Where Can You Go - Life After Graduation: Iva Yuen</h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p>
+      "Where Can You go - Life After Graduation" speaker series<p>
+
+<p>Ivan Yuen graduated from Electrical and Computer Engineering at UBC back in 2002. The UBC IEEE Student Branch has invited Ivan to talk about his journey after graduating from UBC and his recommendations for engineering students.<p>
+
+<p>Biography:<p>
+<p>Ivan Yuen is a senior manager with over 10 years of Asia-Pacific experience with an expertise in the Mainland and Global Chinese market. He received his Bachelor of Applied Sciences (Comp. Eng.) from the University of British Columbia. After 6 years in engineering and marketing roles at a Chinese semiconductor foundry, Ivan took the opportunity to pursue an MBA from the prestigious INSEAD School of Business. After graduation, he began his career in retail at Louis Vuitton and has recently finished a stint with G-Star's China distributor. He is currently in the process of relocating back to Vancouver with his wife, Frances and his guitars.<p>
+
+<p>www.linkedin.com/in/yuenivan  <p>
+      <p>   
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--IEEE Xplore/ECEGSA Workshop-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">September</p>
+      <p style="font-size:30px">16</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 10:00AM - 11:30AM</h5>
+      <h5> Location: UBC Macleod 358</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> IEEE Xplore/ECEGSA Workshop </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+<p>This workshop brings in two engineering librarians, Kevin Lindstrom and Eugene Barsky, who will go over ECE databases, ebooks, standards, patents, and citation management.  We will also have a guest come in and speak about the uses of IEEE Xplore Digital Library.  Refreshments will be served prior to the session in MCLD 319.  <p>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+
+<!--Imagine Day Scavenger Hunt-->
+  <div class="row featurette">
+    <div class="col-md-1" style="text-align: center">
+      <p style="font-size:18px">September</p>
+      <p style="font-size:30px">3</p>
+    </div>
+    <div class="col-md-5" style="text-align: center">
+      <h5> Time: 11:00AM - 2:30PM</h5>
+      <h5> Location: UBC Kaiser 2020</h5>
+    </div>
+    <div class="col-md-6" style="text-align: center">
+      <h2> Imagine Day Scavenger Hunt </h2>
+    </div>
+  </div>
+  <div class="row featurette">
+    <div class="col-md-6">
+      <p>
+      IEEE UBC Student Branch promotes IEEE and the team to the incoming 2nd Years.
+      <p>   
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+</div>
+
+<!--end elements here-->
+</div>
+</div>
+</body>
 </html>
