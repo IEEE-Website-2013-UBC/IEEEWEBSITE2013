@@ -42,3 +42,16 @@
 {
     color: #000000 !important;
 }
+
+a:link {
+COLOR: #BBBBBB !important;
+}
+a:visited {
+COLOR: #BBBBBB !important;
+}
+a:hover {
+COLOR: #888888 !important;
+}
+a:active {
+COLOR: #555555 !important;
+}
