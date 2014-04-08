@@ -49,8 +49,7 @@
 * Additional media queries are at the bottom of this document
 ******************************************************************/
 .ls-wrapper {
- // margin:0 auto;
-  margin-top : 2%;
+  margin:0 auto;
   /* Do not edit below this line */
   clear: both;
   overflow: auto;

@@ -42,11 +42,11 @@
          -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
 }
 
-#accordion li {position:relative;}
+/*#accordion li {position:relative;}
 #accordion div.slider-bg {background:#000;top:75%;height:26%;width:100%;left:0;position:absolute;z-index:10;opacity:.5;}
 #accordion div.slider-info {top:75%;height:18%;left:0;position:absolute;width:6%;z-index:15;padding:2%;}
 #accordion div.slider-info strong {font-size:18px;color:#fff;margin-bottom:5px;}
 #accordion div.slider-info p {display:none;font-size:12px;line-height:14px;color:#fff;margin:0 !important;}
 #accordion li.slider-open div.slider-info {width:100%;	}
 #accordion li.slider-open div.slider-info strong {font-size:22px;}
-#accordion li.slider-open div.slider-info p {display:block;}
+#accordion li.slider-open div.slider-info p {display:block;}*/
