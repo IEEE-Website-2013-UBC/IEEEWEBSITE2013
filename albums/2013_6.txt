@@ -1,0 +1,26 @@
+<script>
+  $("#closealbum").click(function(){
+    $("#y2013").load("./albums/2013.txt");
+  });
+</script>
+
+<a href="#" id="closealbum" onclick="return false;" style="float:right; text-decoration:none">[close]</a>
+<h3>[Nov.13.2013] Meetup</h3>
+<div id="album">
+<a href="./image/2013_6/IMG_4255.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4255.jpg"></a>
+<a href="./image/2013_6/IMG_4257.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4257.jpg"></a>
+<a href="./image/2013_6/IMG_4259.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4259.jpg"></a>
+<a href="./image/2013_6/IMG_4261.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4261.jpg"></a>
+<a href="./image/2013_6/IMG_4264.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4264.jpg"></a>
+
+<a href="./image/2013_6/IMG_4269.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4269.jpg"></a>
+<a href="./image/2013_6/IMG_4273.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4273.jpg"></a>
+<a href="./image/2013_6/IMG_4278.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4278.jpg"></a>
+<a href="./image/2013_6/IMG_4286.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4286.jpg"></a>
+<a href="./image/2013_6/IMG_4299.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4299.jpg"></a>
+
+<a href="./image/2013_6/IMG_4314.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4314.jpg"></a>
+<a href="./image/2013_6/IMG_4317.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4317.jpg"></a>
+<a href="./image/2013_6/IMG_4333.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4333.jpg"></a>
+<a href="./image/2013_6/IMG_4336.jpg" data-lightbox="131113"><img src="./image/2013_6_thumb/IMG_4336.jpg"></a>
+</div>
