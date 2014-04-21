@@ -1,3 +1,13 @@
+.content 
+{   
+     width: 75%;
+     margin: 0px auto;
+     padding: 0;  
+     display: table;
+     height: 100%;     
+}
+
+
 .background
 {
     background: #a7cfdf; /* Old browsers */
@@ -8,20 +18,23 @@
     background: -ms-linear-gradient(bottom, #FFFFFF 0%,#a7cfdf 100%); /* IE10+ */
     background: linear-gradient(to top, #FFFFFF 0%,#a7cfdf 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#a7cfdf',GradientType=1 ); /* IE6-9 */
+
 }
 
-.background #nav-wrapper{
-    position:absolute;
-    z-index:1;
+.container_marketing
+{
+    padding: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom:0%;
+    //height:98%;
 }
 
-.content {   
-    width: 75%;
-    margin: auto;
-}
 
-.content h1{
-font-weight:bold;
+
+#main-slider-nav-ul a
+{
+	color: #000000 !important;
 }
 
 #main-slider-nav-ul a
@@ -29,44 +42,15 @@ font-weight:bold;
     color: #000000 !important;
 }
 
-#main-slider-nav-ul a
-{
-    color: #000000 !important;
+a:link {
+COLOR: #9999C2 !important;
 }
-
-.liquid-slider .polaroid{
-border: 2px solid #000000;
-background:#ffffff;
-float:left;
-width:216px;
-height:300px;
-margin:10px;
+a:visited {
+COLOR:#9999C2 !important;
 }
-
-.liquid-slider .polaroid img{
-width:200px;
-height:200px;
-margin: 6px;
+a:hover {
+COLOR: #9999C2 !important;
 }
-
-.liquid-slider .polaroid .name{
-padding: 0px 5px;
-color:black; font-size:18px;
-font-family:verdana;
-font-weight:600;
-}
-
-.liquid-slider .polaroid .date{
-padding: 0px 5px;
-color:black; font-size:12px;
-font-family:verdana;
-font-style:italic;
-}
-
-.liquid-slider #album img{
-width:200px;
-height:200px;
-margin:10px;
-background: #7777777;
-border: 2px solid #777777;
+a:active {
+COLOR: #9999C2 !important;
 }
