@@ -1,3 +1,1 @@
 <a href="#"  class="polaroid" id="2014_1" onClick="reply_click(this.id); return false;" draggable="false"><img src="./image/2014_1_thumb/IMG_4468.JPG" draggable="false"><br /><div class="date">31.01.2014</div><div class="name">Think Engineering 2014</div></a>
-<a href="#"  class="polaroid" id="2014_2" onClick="reply_click(this.id); return false;" draggable="false"><img src="./image/husky1.jpg" draggable="false"><div class="name">IEEE Team Husky</div></a>
-<a href="#"  class="polaroid" id="2014_3" onClick="reply_click(this.id); return false;" draggable="false"><img src="./image/shiba1.jpg" draggable="false"><div class="name">IEEE Team Shiba</div></a>

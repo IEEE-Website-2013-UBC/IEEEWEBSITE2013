@@ -1,0 +1,16 @@
+<script>
+  $("#closealbum").click(function(){
+    $("#y2013").load("./albums/2013.txt");
+  });
+</script>
+
+<a href="#" id="closealbum" onclick="return false;" style="float:right; text-decoration:none">[close]</a>
+<h3>[Oct.01.2013] IEEE Day 2013</h3>
+<div id="album">
+<a href="./image/2013_4/IMG_4161.jpg" data-lightbox="011013"><img src="./image/2013_4_thumb/IMG_4161.jpg"></a>
+<a href="./image/2013_4/IMG_4163.jpg" data-lightbox="011013"><img src="./image/2013_4_thumb/IMG_4163.jpg"></a>
+<a href="./image/2013_4/IMG_4164.jpg" data-lightbox="011013"><img src="./image/2013_4_thumb/IMG_4164.jpg"></a>
+<a href="./image/2013_4/IMG_4167.jpg" data-lightbox="011013"><img src="./image/2013_4_thumb/IMG_4167.jpg"></a>
+<a href="./image/2013_4/IMG_4168.jpg" data-lightbox="011013"><img src="./image/2013_4_thumb/IMG_4168.jpg"></a>
+<a href="./image/2013_4/IMG_4169.jpg" data-lightbox="011013"><img src="./image/2013_4_thumb/IMG_4169.jpg"></a>
+</div>
