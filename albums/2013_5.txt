@@ -1,0 +1,24 @@
+<script>
+  $("#closealbum").click(function(){
+    $("#y2013").load("./albums/2013.txt");
+  });
+</script>
+
+<a href="#" id="closealbum" onclick="return false;" style="float:right; text-decoration:none">[close]</a>
+<h3>[Oct.28.2013] Lab Tours</h3>
+<div id="album">
+<a href="./image/2013_5/IMG_4229.jpg" data-lightbox="281013"><img src="./image/2013_5_thumb/IMG_4229.jpg"></a>
+<a href="./image/2013_5/IMG_4230.jpg" data-lightbox="281013"><img src="./image/2013_5_thumb/IMG_4230.jpg"></a>
+<a href="./image/2013_5/IMG_4231.jpg" data-lightbox="281013"><img src="./image/2013_5_thumb/IMG_4231.jpg"></a>
+<a href="./image/2013_5/IMG_4232.jpg" data-lightbox="281013"><img src="./image/2013_5_thumb/IMG_4232.jpg"></a>
+<a href="./image/2013_5/IMG_4234.jpg" data-lightbox="281013"><img src="./image/2013_5_thumb/IMG_4234.jpg"></a>
+
+<a href="./image/2013_5/IMG_4235.jpg" data-lightbox="281013"><img src="./image/2013_5_thumb/IMG_4235.jpg"></a>
+<a href="./image/2013_5/IMG_4236.jpg" data-lightbox="281013"><img src="./image/2013_5_thumb/IMG_4236.jpg"></a>
+<a href="./image/2013_5/IMG_4237.jpg" data-lightbox="281013"><img src="./image/2013_5_thumb/IMG_4237.jpg"></a>
+<a href="./image/2013_5/IMG_4238.jpg" data-lightbox="281013"><img src="./image/2013_5_thumb/IMG_4238.jpg"></a>
+<a href="./image/2013_5/IMG_4240.jpg" data-lightbox="281013"><img src="./image/2013_5_thumb/IMG_4240.jpg"></a>
+
+<a href="./image/2013_5/IMG_4241.jpg" data-lightbox="281013"><img src="./image/2013_5_thumb/IMG_4241.jpg"></a>
+<a href="./image/2013_5/IMG_4245.jpg" data-lightbox="281013"><img src="./image/2013_5_thumb/IMG_4245.jpg"></a>
+</div>
